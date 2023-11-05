@@ -37,7 +37,7 @@ async def stop_bot(bot: Bot):
 
 
 def create_pool():
-    return psycopg_pool.AsyncConnectionPool(f"host=127.0.0.1 port=5432 dbname=users user=postgres password=gbcpgeam98 "
+    return psycopg_pool.AsyncConnectionPool(f"host=127.0.0.1 port=5432 dbname=users user=postgres password=... "
                                             f"connect_timeout=60")
 
 
